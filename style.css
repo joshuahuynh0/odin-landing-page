@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0px;
     font-family: Helvetica, sans-serif;
+    
 }
 
 .header, .footer {
@@ -14,7 +15,7 @@ body {
 
 .header {
     justify-content: space-between;
-    padding: 20px 70px;
+    padding: 40px 150px;
 }
 .header-logo {
     color: #F9FAF8;
@@ -39,4 +40,41 @@ a {
     color: #E5E7EB;
     font-size: 18px;
     padding: 30px;
+}
+
+.hero {
+    padding: 90px 150px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1 {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0px;
+    margin: 0px;
+}
+p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: 550;
+    padding: 10px 28px;
+}
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: #E5E7EB;
+    height: 200px;
+    width: 700px;
 }
