@@ -59,6 +59,7 @@ h1 {
 p {
     color: #E5E7EB;
     font-size: 18px;
+    max-width: fit-content;
 }
 button {
     font-family: Roboto, sans-serif;
@@ -97,7 +98,7 @@ h2 {
 .info-cards {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 100px;
 }
@@ -107,6 +108,7 @@ h2 {
     justify-content: center;
     flex-direction: column;
     width: 180px;
+    text-align: center;
 }
 .card {
     height: 180px;
@@ -128,6 +130,7 @@ h2 {
     font-style: italic;
     color: #1F2937;
     text-align: justify;
+    margin-bottom: 10px;
 }
 .quote-speaker {
     font-size: 22px;
