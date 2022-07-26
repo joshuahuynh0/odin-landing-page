@@ -115,3 +115,59 @@ h2 {
     border-radius: 25px;
     margin-bottom: 10px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 500px;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
+}
+.quote-speaker {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 250px;
+    margin: 100px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    gap: 110px;
+}
+.banner-heading {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.banner-text {
+    font-weight: 200;
+}
+.banner-right {
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: 550;
+    padding: 10px 28px;
+}
